@@ -69,7 +69,8 @@ public class ClassGroup extends AppCompatActivity {
         setContentView(R.layout.activity_class_group);
 
         activity_chatme = (RelativeLayout) findViewById(R.id.activity_chatme);
-        fab = (FloatingActionButton) findViewById(R.id.fab); fab.setOnClickListener(new View.OnClickListener() {
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 EditText input = (EditText)findViewById(R.id.input);
@@ -84,7 +85,7 @@ public class ClassGroup extends AppCompatActivity {
        if (firebaseAuth.getCurrentUser() == null) {
             startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_REQUEST_CODE);
         } else {
-            Snackbar.make(activity_chatme, "Welcome" + FirebaseAuth.getInstance().getCurrentUser().getEmail(), Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(activity_chatme, "Welcome" + " " + FirebaseAuth.getInstance().getCurrentUser().getEmail(), Snackbar.LENGTH_SHORT).show();
            displayChatMessage();
 
        }
@@ -110,7 +111,7 @@ public class ClassGroup extends AppCompatActivity {
                 messageText.setText(model.getMessageText());
                 messageUser.setText(model.getMessageUser());
 
-                messageTime.setText(DateFormat.format("dd-MM-yyyy",model.getMessageTime()));
+                messageTime.setText(DateFormat.format("dd-MM-yyyy (HH:mm:ss)",model.getMessageTime()));
 
             }
         };

@@ -31,7 +31,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Computer Graphics"
+                        android:text="Computer Networks"
                         android:textSize="18sp"
                         android:drawablePadding="20dp"
                         android:textStyle="bold"
@@ -40,7 +40,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dr. Musumba"
+                        android:text="Kamundi"
                         android:drawablePadding="20dp"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_perm_identity_black_24dp"/>
@@ -49,7 +49,7 @@
                         android:layout_width="wrap_content"
                         android:drawablePadding="20dp"
                         android:layout_height="wrap_content"
-                        android:text="Room 14"
+                        android:text="CL2"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
 
@@ -57,7 +57,7 @@
                         android:layout_width="wrap_content"
                         android:drawablePadding="20dp"
                         android:layout_height="wrap_content"
-                        android:text="8am - 10am"
+                        android:text="8am - 11am"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
 
@@ -126,7 +126,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Computer Graphics"
+                        android:text="Complex Analysis"
                         android:textSize="18sp"
                         android:drawablePadding="20dp"
                         android:textStyle="bold"
@@ -135,7 +135,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dr. Musumba"
+                        android:text="Dr. Keroboto"
                         android:drawablePadding="20dp"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_perm_identity_black_24dp"/>
@@ -152,7 +152,7 @@
                         android:layout_width="wrap_content"
                         android:drawablePadding="20dp"
                         android:layout_height="wrap_content"
-                        android:text="8am - 10am"
+                        android:text="11am - 2pm"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
 

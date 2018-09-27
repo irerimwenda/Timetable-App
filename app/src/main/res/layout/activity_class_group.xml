@@ -30,7 +30,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type something..."
+            android:hint="@string/type_something"
+            android:background="@drawable/editshape"
             android:id="@+id/input"/>
 
     </android.support.design.widget.TextInputLayout>

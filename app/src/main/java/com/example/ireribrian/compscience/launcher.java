@@ -20,6 +20,6 @@ public class launcher extends AppCompatActivity {
                 launcher.this.startActivity(mainIntent);
                 launcher.this.finish();
             }
-        }, 4000);
+        }, 2500);
     }
 }

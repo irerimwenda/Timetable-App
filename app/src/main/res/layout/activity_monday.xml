@@ -46,7 +46,7 @@
                         android:layout_width="wrap_content"
                         android:drawablePadding="20dp"
                         android:layout_height="wrap_content"
-                        android:text="Room 14"
+                        android:text="Room 10"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
 
@@ -151,7 +151,7 @@
                         android:layout_height="wrap_content"
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"
                         android:drawablePadding="20dp"
-                        android:text="8am - 10am"
+                        android:text="10am - 1pm"
                         android:textSize="18sp" />
 
                 </LinearLayout>
@@ -244,7 +244,7 @@
                         android:layout_width="wrap_content"
                         android:drawablePadding="20dp"
                         android:layout_height="wrap_content"
-                        android:text="8am - 10am"
+                        android:text="2pm - 5pm"
                         android:textSize="18sp"
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Comp Science</string>
+    <string name="type_something">Type something...</string>
 </resources>
