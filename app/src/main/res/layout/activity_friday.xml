@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ireribrian.compscience.Friday">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Lesson1"
+                    android:layout_width="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Graphics"
+                        android:textSize="18sp"
+                        android:drawablePadding="20dp"
+                        android:textStyle="bold"
+                        android:drawableStart="@drawable/ic_assignment_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Musumba"
+                        android:drawablePadding="20dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:drawablePadding="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Room 14"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:drawablePadding="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="8am - 10am"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@+id/Lesson1"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:backgroundTint="@color/cyan_500"
+                        android:layout_height="wrap_content"
+                        app:fabSize="mini"
+                        android:src="@drawable/ic_add"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:backgroundTint="@color/green"
+                        android:layout_height="wrap_content"
+                        app:fabSize="mini"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_create"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fabSize="mini"
+                        app:backgroundTint="@color/deep_purple_500"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_delete"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:backgroundTint="@color/indigo_500"
+                        android:layout_height="wrap_content"
+                        app:fabSize="mini"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_attach"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Lesson2"
+                    android:layout_width="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer Graphics"
+                        android:textSize="18sp"
+                        android:drawablePadding="20dp"
+                        android:textStyle="bold"
+                        android:drawableStart="@drawable/ic_assignment_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Musumba"
+                        android:drawablePadding="20dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:drawablePadding="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Room 14"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:drawablePadding="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="8am - 10am"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@+id/Lesson2"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:backgroundTint="@color/cyan_500"
+                        app:fabSize="mini"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:backgroundTint="@color/green"
+                        app:fabSize="mini"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_create"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fabSize="mini"
+                        app:backgroundTint="@color/deep_purple_500"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_delete"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        app:fabSize="mini"
+                        app:backgroundTint="@color/indigo_500"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_attach"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

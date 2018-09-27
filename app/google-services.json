@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "683023001452",
+    "firebase_url": "https://timetableapp-cff9e.firebaseio.com",
+    "project_id": "timetableapp-cff9e",
+    "storage_bucket": "timetableapp-cff9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683023001452:android:cfb04cf79c14f3cd",
+        "android_client_info": {
+          "package_name": "com.example.ireribrian.compscience"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683023001452-pmc0fnollqoake6nnvt83th9m6krs2u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlO0wU_joPjsFuyE7YFPaTPErPRgeOPBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

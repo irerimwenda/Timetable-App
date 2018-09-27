@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/cyan_500"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="60dp"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"
+            android:src="@drawable/bv"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="Chat Room"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@drawable/chatbg"
+        android:id="@+id/mainchatroom"
+        android:padding="6dp"
+        android:layout_below="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <!--   <RelativeLayout
+            android:id="@+id/senderb"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/senderbubble"
+                android:background="@drawable/bubble_send"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/bubble_send"
+                    android:layout_height="wrap_content">-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UserName"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/message_user"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="12:30"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="@id/message_user"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/message_time"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Hi...What are you doing?"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/message_user"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/message_text"
+                        android:textAppearance="@style/ThemeOverlay.AppCompat.Light"
+                        android:textSize="18sp"/>
+                    <!--
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>-->
+
+        <!--
+                <RelativeLayout
+                    android:id="@+id/receiveb"
+                    android:layout_below="@+id/senderb"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/receiverbubble"
+                        android:background="@drawable/bubble_send"
+                        app:cardCornerRadius="20dp"
+                        android:layout_margin="10dp"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/bubble_receive"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="UserName"
+                                android:layout_alignParentStart="true"
+                                android:id="@+id/message_receiver"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="12:30"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="@id/message_receiver"
+                                android:layout_alignParentEnd="true"
+                                android:id="@+id/message_receivertime"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Hi...I'm coding a project"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/message_receiver"
+                                android:layout_alignParentStart="true"
+                                android:id="@+id/message_receivertext"
+                                android:textAppearance="@style/ThemeOverlay.AppCompat.Light"
+                                android:textSize="18sp"/>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </RelativeLayout>
+
+        -->
+
+    </RelativeLayout>
+</RelativeLayout>
