@@ -42,6 +42,7 @@ public class ClassGroup extends AppCompatActivity {
     RelativeLayout activity_chatme;
     FloatingActionButton fab;
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference mDatabase;
 
 
 
@@ -67,6 +68,7 @@ public class ClassGroup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class_group);
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("comrades");
 
         activity_chatme = (RelativeLayout) findViewById(R.id.activity_chatme);
         fab = (FloatingActionButton) findViewById(R.id.fab);

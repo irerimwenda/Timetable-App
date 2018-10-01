@@ -10,6 +10,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +20,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,7 +39,6 @@ public class Home extends AppCompatActivity {
     private CardView wednesdayCard;
     private CardView thursdayCard;
     private CardView fridayCard;
-    private FloatingActionButton chatBtn;
     private FloatingActionButton callBtn;
     private EditText usernamepop;
     private EditText emailpop;
@@ -46,6 +48,7 @@ public class Home extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private FirebaseAuth firebaseAuth;
     private DatabaseReference mDatabase;
+    LinearLayout activity_friday;
 
 
     @Override
@@ -62,8 +65,8 @@ public class Home extends AppCompatActivity {
         wednesdayCard = (CardView) findViewById(R.id.wednesdayCard);
         thursdayCard = (CardView) findViewById(R.id.thursdayCard);
         fridayCard = (CardView) findViewById(R.id.fridayCard);
-        chatBtn = (FloatingActionButton) findViewById(R.id.chat);
         callBtn = (FloatingActionButton) findViewById(R.id.call);
+        activity_friday = (LinearLayout) findViewById(R.id.activity_friday);
 
         progressDialog = new ProgressDialog(this);
         mondayCard.setOnClickListener(new View.OnClickListener() {
@@ -101,6 +104,7 @@ public class Home extends AppCompatActivity {
         fridayCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Snackbar.make(activity_friday, "Enjoy yoh weekend...Code too", Snackbar.LENGTH_SHORT).show();
                 final Intent mainIntent = new Intent(Home.this, Wednesday.class);
                 Home.this.startActivity(mainIntent);
             }
@@ -112,7 +116,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:0791205989"));
+                callIntent.setData(Uri.parse("tel:0705577555"));
                 if (ActivityCompat.checkSelfPermission(Home.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     if (ActivityCompat.shouldShowRequestPermissionRationale(Home.this,
                             Manifest.permission.CALL_PHONE)) {

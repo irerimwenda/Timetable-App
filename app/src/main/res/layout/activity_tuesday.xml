@@ -62,7 +62,7 @@
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
 
                 </LinearLayout>
-
+<!--
                 <LinearLayout
                     android:layout_below="@+id/Lesson1"
                     android:layout_margin="10dp"
@@ -103,7 +103,7 @@
 
 
                 </LinearLayout>
-
+-->
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
@@ -157,7 +157,7 @@
                         android:drawableLeft="@drawable/ic_access_time_black_24dp"/>
 
                 </LinearLayout>
-
+<!--
                 <LinearLayout
                     android:layout_below="@+id/Lesson2"
                     android:layout_margin="10dp"
@@ -199,7 +199,7 @@
 
 
                 </LinearLayout>
-
+-->
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
